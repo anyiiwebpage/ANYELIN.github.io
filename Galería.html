@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Galería de Leopardos</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url('fondogaleria.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+nav{
+    background-color: rgba(0,0,0,0.8);
+    padding: 15px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    padding: 12px 22px;
+    border-radius: 30px;
+    background: #b36b00;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background: #ffb347;
+    color: black;
+}
+
+
+.contenido{
+    width: 90%;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h1{
+    font-size: 55px;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 10px black;
+}
+
+.descripcion{
+    background-color: rgba(0,0,0,0.5);
+    padding: 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.galeria{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+}
+
+.foto{
+    width:300px;
+    overflow:hidden;
+    border-radius:20px;
+    box-shadow:0px 0px 15px black;
+    transition:0.4s;
+    background-color:rgba(255,255,255,0.1);
+}
+
+.foto:hover{
+    transform:scale(1.05);
+    box-shadow:0px 0px 20px #ffb347;
+}
+
+.foto img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.foto h2{
+    padding:15px;
+    color:#ffcc70;
+}
+
+.foto p{
+    padding:0 15px 20px;
+    line-height:1.6;
+}
+
+
+.curioso{
+    margin-top:50px;
+    background-color:rgba(0,0,0,0.6);
+    padding:30px;
+    border-radius:20px;
+    line-height:1.8;
+    font-size:20px;
+}
+
+.boton{
+    text-align:center;
+    margin-top:40px;
+}
+
+.boton a{
+    background-color:#c47a1b;
+    color:white;
+    padding:15px 30px;
+    text-decoration:none;
+    border-radius:30px;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.boton a:hover{
+    background-color:#ffb347;
+    color:black;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="contenido">
+
+    <h1>GALERÍA DE LEOPARDOS</h1>
+
+    <div class="descripcion">
+
+        <p>
+            Los leopardos destacan por su elegancia, fuerza y belleza natural.
+            Sus manchas únicas hacen que cada ejemplar tenga un patrón diferente,
+            como si la naturaleza hubiera pintado cada uno de manera especial 🐆✨
+        </p>
+
+    </div>
+
+    <div class="galeria">
+
+        <div class="foto">
+            <img src="africa.jpg">
+
+            <h2>Leopardo Africano</h2>
+
+            </div>
+
+        <div class="foto">
+            <img src="arbol.jpg">
+
+            <h2>Leopardo en Árbol</h2>
+
+           </div>
+
+        <div class="foto">
+            <img src="pantera.jpg">
+
+            <h2>Pantera Negra</h2>
+
+          </div>
+
+    </div>
+
+   
+    <div class="curioso">
+
+        <h2>Dato Curioso</h2>
+
+        <br>
+
+        <p>
+            Aunque muchas personas creen que las panteras negras son una especie
+            diferente, en realidad son leopardos con una variación genética llamada
+            melanismo. Esta condición provoca que su pelaje sea mucho más oscuro,
+            aunque sus manchas todavía pueden verse bajo la luz.
+        </p>
+
+    </div>
+
+   
+    <div class="boton">
+
+        <a href="Leopardos.html">
+            ⬅ Regresar al Inicio
+        </a>
+
+    </div>
+
+</div>
+<div style="text-align:center; margin-top:40px;">
+
+<iframe 
+width="700" 
+height="400"
+src="https://www.youtube.com/embed/R9bZV6mJ9kQ"
+title="Video de Leopardos"
+frameborder="0"
+allowfullscreen
+style="border-radius:20px; box-shadow:0px 0px 20px black;">
+</iframe>
+
+</div>
+
+</body>
+</html>
